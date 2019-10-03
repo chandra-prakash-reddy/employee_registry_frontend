@@ -7,7 +7,7 @@ UserInterface for Accessing  Employees Data with CRUD operations enabled on data
       documentation : https://nodejs.org/en/docs
        
    * clone and run employee_registry_backed
-        https://github.com/chandra-prakash-reddy/employee_registry_frontend.git
+        https://github.com/chandra-prakash-reddy/employee_registry_backend.git
  
 
 
