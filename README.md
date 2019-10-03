@@ -3,11 +3,11 @@ UserInterface for Accessing  Employees Data with CRUD operations enabled on data
 
 # prerequisites # 
    * Install NodeJS
-      installation  : https://nodejs.org/en/download/
-      documentation : https://nodejs.org/en/docs
+      * installation  : https://nodejs.org/en/download/
+      * documentation : https://nodejs.org/en/docs
        
    * clone and run employee_registry_backed
-        https://github.com/chandra-prakash-reddy/employee_registry_backend.git
+       * url          : https://github.com/chandra-prakash-reddy/employee_registry_backend.git
  
 
 
