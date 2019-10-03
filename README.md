@@ -13,13 +13,11 @@ UserInterface for Accessing  Employees Data with CRUD operations enabled on data
 
 
 # Windows Run #
-   start.bat <employee_registry_backed_host:port> <current_host> <port>
-
-   example: start.bat localhost:7878 localhost 8000
+   * start.bat <employee_registry_backed_host:port> <current_host> <port>
+      * ***example:*** start.bat localhost:7878 localhost 8000
 
 
 # Linux Run #
-   ./start.sh <employee_registry_backed_host:port> <current_host> <port>
-  
-   example: ./start.sh localhost:7878 localhost 8000
+   * ./start.sh <employee_registry_backed_host:port> <current_host> <port>
+      * ***example:*** ./start.sh localhost:7878 localhost 8000
   
