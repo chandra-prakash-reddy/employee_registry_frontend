@@ -1,0 +1,16 @@
+#container {
+    margin-top: 50px;
+}
+
+#title {
+    color: #08A8F8
+}
+
+#userProfile{
+    width: 120px;
+    height: 120px;
+}
+
+.submit {
+    color: #08A8F8
+}

@@ -1,0 +1,15 @@
+#table{
+    width: 100px;
+}
+
+#container {
+    margin-top: 50px;
+}
+
+#title {
+    color: #08A8F8
+}
+
+#pagination {
+    align-self: center;
+}

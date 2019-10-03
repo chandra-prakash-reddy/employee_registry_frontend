@@ -1,0 +1,22 @@
+{
+  "name": "yes",
+  "version": "1.0.0",
+  "description": "sample project to demonstrate the usage of restful api using employee registration",
+  "main": "yes",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "employee",
+    "restfull",
+    "tutorial"
+  ],
+  "author": "chandraprakash kistaiahgari",
+  "license": "ISC"
+}
