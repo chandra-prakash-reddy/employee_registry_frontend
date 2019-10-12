@@ -1,4 +1,5 @@
-# employee_registry_frontend
+# employee_registry_frontend 
+[![Build Status](https://dev.azure.com/chandra-prakash-reddy/EmployeeRegistry/_apis/build/status/chandra-prakash-reddy.employee_registry_frontend?branchName=master)](https://dev.azure.com/chandra-prakash-reddy/EmployeeRegistry/_build/latest?definitionId=2&branchName=master)
 UserInterface for Accessing  Employees Data with CRUD operations enabled on data
 
 # prerequisites # 
