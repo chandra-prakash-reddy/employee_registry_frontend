@@ -27,14 +27,14 @@ UserInterface for Accessing  Employees Data with CRUD operations enabled on data
   
   
  # Docker Run #
-   * docker run command :
-      **** docker run -e SERVICE_HOST_PORT=<service_host_port> -e HOST=<host> -e PORT=<port> -p <port>:<port> --name <container_name> chandraprakashreddy/applications:employee-registry-ui-v1.01 ****
+   * ***docker run command :***
+       docker run -e SERVICE_HOST_PORT=<service_host_port> -e HOST=<host> -e PORT=<port> -p <port>:<port> --name <container_name> chandraprakashreddy/applications:employee-registry-ui-v1.01 
       
-   * environment variables :
-      **** SERVICE_HOST_PORT : **** hostname and port number of backend services
+   * ***environment variables :***
+      *SERVICE_HOST_PORT : hostname and port number of backend services
                example:- SERVICE_HOST_PORT=localhost:8080
-      **** HOST :**** hostname to ui hosted on 
+      *HOST : hostname to ui hosted on 
                example :- HOST=local
-      **** PORT : **** portnumber for ui to run process
+      *PORT :  portnumber for ui to run process
                example :- PORT=8001 
-      ****note**** : port mapping should be same -p <port>:<port>  example :- -p 8001:8001 
+    ***note*** : port mapping should be same -p <port>:<port>  example :- -p 8001:8001 
