@@ -24,4 +24,4 @@ sed -i '1d' ./public/app/global.js
 (echo $javascript && cat ./public/app/global.js) > filename1 && mv filename1 ./public/app/global.js
 echo $javascript
 echo "node server.js" $port
-nohup node server.js $port &> out.log &
+node server.js $port
