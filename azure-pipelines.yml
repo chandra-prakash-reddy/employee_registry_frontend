@@ -10,11 +10,29 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- task: NodeTool@0
-  inputs:
-    versionSpec: '6.x'
-  displayName: 'Install Node.js'
 
-- script: |
-    npm install
-  displayName: 'npm install and build'
+- task: Docker@2
+  inputs:
+    containerRegistry: 'DockerHub'
+    command: 'login'
+
+
+- task: Docker@2
+  inputs:
+    containerRegistry: 'DockerHub'
+    repository: 'chandraprakashreddy/applications'
+    command: 'build'
+    Dockerfile: 'Dockerfile'
+    tags: '$(imageName)'
+
+- task: Docker@2
+  inputs:
+    containerRegistry: 'DockerHub'
+    repository: 'chandraprakashreddy/applications'
+    command: 'push'
+    tags: '$(imageName)'
+
+- task: Docker@2
+  inputs:
+    containerRegistry: 'DockerHub'
+    command: 'logout'
