@@ -34,7 +34,7 @@ UserInterface for Accessing  Employees Data with CRUD operations enabled on data
       * SERVICE_HOST_PORT : hostname and port number of backend services
         * example:- SERVICE_HOST_PORT=localhost:8080
       * HOST : hostname to ui hosted on 
-        * example :- HOST=local
+        * example :- HOST=localhost
       * PORT :  portnumber for ui to run process
         * example :- PORT=8001 
    * ***run arguments :***
