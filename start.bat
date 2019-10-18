@@ -22,6 +22,7 @@ if "%p%"=="" set CHECK_EMPTY=0
 if "%CHECK_EMPTY%"=="1" (
   app.bat %s% %u% %p%
   app.bat %s% %u% %p%
+  node server.js %p% 
 ) else (
     echo %usage%
 )
