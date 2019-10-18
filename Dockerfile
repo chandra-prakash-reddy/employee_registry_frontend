@@ -1,5 +1,5 @@
 From node:6.17.1
-MAINTAINER reddyp148@gmail.com <ChandraPrakash Kistaiahgari>
+MAINTAINER <ChandraPrakash Kistaiahgari (reddyp148@gmail.com)>
 
 ADD package.json /package.json
 ADD public /public
