@@ -1,4 +1,5 @@
-From chandraprakashreddy/applications:mynode-6.0
+From node:6.17.1
+MAINTAINER reddyp148@gmail.com <ChandraPrakash Kistaiahgari>
 
 ADD package.json /package.json
 ADD public /public
